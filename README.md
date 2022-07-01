@@ -1,4 +1,5 @@
 # Googlr 
 A windows program to google things from the terminal written in C++
-# Usage
+## Usage
+------
 <pre><code>Googlr [Query]</code></pre>
