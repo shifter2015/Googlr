@@ -9,7 +9,6 @@ enum {
     ERROR_INVALID_ARGS,
     ERROR_APPEND
 };
-#define ERROR_APPEND 2
 using namespace std;
 
 string url_encode(const string& value) {
