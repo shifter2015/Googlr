@@ -6,10 +6,9 @@
 #include <exception>
 #include <stdexcept>
 enum {
-    ERROR_INVALID_ARGS,
+    ERROR_INVALID_ARGS = 1,
     ERROR_APPEND
 };
-#define ERROR_APPEND 2
 using namespace std;
 
 string url_encode(const string& value) {
